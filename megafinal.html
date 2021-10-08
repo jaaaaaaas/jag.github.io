@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Streaming</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+		<meta charset = "utf-8" />
+	
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+body {
+background-color: lavenderblush;
+}
+</style>
+<body>
+	
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-black w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>T E A M<br> J A G </b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Streaming</a>
+    <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Platforms</a>
+    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Introduction</a>
+    <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Audience</a>
+    <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Purpose</a>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Members</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Company Name</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 class="w3-jumbo"><b>S  T  R  E  A  M  I  N  G</b></h1>
+    <p>Streaming is one of the hobbies that most people do in their everyday lives and also for entertaining other people and to earn money. Streaming is where you can watch different contents such as gaming, vlogging, reacting to different videos, etc. with the presence of the Internet.</p>
+    <h1 class="w3-xxlarge w3-text-blue"><b>Platforms</b></h1>
+    <hr style="width:100px;border:2px solid blue" class="w3-round">
+    <p>Streaming Media or Streaming Platforms is the process of delivering multimedia data (such as video or audio) from a streaming service provider to an end-user. Streaming Media delivers audio and video elements using basic HTTP, TCP/IP, and HTML protocols. Streaming Platforms requires an internet connection to access different media services.
+</p>
+<p class="w3-left">URL - <a href="https://www.haivision.com/resources/streaming-video-definitions/streaming-media/" title="W3.CSS" target="_blank" class="w3-hover-opacity"><b>Streaming</b></a></p>
+  </div>
+  
+  <!-- Photo grid (modal) -->
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <img src="https://www.freepnglogos.com/uploads/twitch-app-logo-png-3.png?fbclid=IwAR0OqpucUKJg0sekLJ6PyRuykyOGm9lzfUo3zlZ-LQWRju7Ce3-hGsg-zkA" style="width:40%" onclick="onClick(this)" alt="Twitch"><br>
+      <p style="text-align:center;"><b> TWITCH </b></p>
+      <p style="text-align:center;">Twitch is an American video live streaming service that focuses on video game live streaming, including broadcasts of esports competitions. In addition, it offers music broadcasts, creative content, and more recently, in real life streams.</p>
+      <img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png?fbclid=IwAR0_L2TVnRX0ZdEkyp4nB99aggVTf4OCO8pB-mfz4Zesozmu0XOU_l0Vfkg" style="width:40%" onclick="onClick(this)" alt="Instgram">
+      <p style="text-align:center;"><b> INSTAGRAM </b></p>
+      <p style="text-align:center;">Instagram is an American photo and video sharing social networking service founded by Kevin Systrom and Mike Krieger. In April 2012, Facebook acquired the service for approximately US$1 billion in cash and stock.</p>
+      <img src="https://cdn.iconscout.com/icon/free/png-256/google-meet-2923654-2416657.png?fbclid=IwAR19rtF936Qc3OtB5CuRkWlcpLUfBjfI4wquiM0CdrJmMSt16oM0Qhb2J8M" style="width:40%" onclick="onClick(this)" alt="Google Meet">
+      <p style="text-align:center;"><b> GOOGLE MEET </b></p>
+      <p style="text-align:center;">Google Meet is a video-communication service developed by Google. It is one of two apps that constitute the replacement for Google Hangouts, the other being Google Chat.</p>
+    </div>
+
+    <div class="w3-half">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1200px-Facebook_Logo_%282019%29.png?fbclid=IwAR396SgcJpJdJ8smz7krck0_CO8eo3E9LjNi5fAF_HHb3QyoBfhuQmcIEyo" style="width:40%" onclick="onClick(this)" alt="Facebook">
+      <p style="text-align:center;"><b> FACEBOOK </b></p>
+      <p style="text-align:center;">Facebook, Inc. is an American multinational technology company based in Menlo Park, California. It was founded in 2004 as TheFacebook by Mark Zuckerberg, Eduardo Saverin, Andrew McCollum, Dustin Moskovitz, and Chris Hughes, roommates and students at Harvard College.</p>
+      <img src="https://www.freeiconspng.com/thumbs/youtube-logo-png/hd-youtube-logo-png-transparent-background-20.png?fbclid=IwAR2-CuRPyhylw_dlddN75s7UC7c_67qm_31BRt0meFGBC2KreRHKnN5Lm0Y" style="width:40%" onclick="onClick(this)" alt="Youtube">
+      <p style="text-align:center;"><b> YOUTUBE </b></p>
+      <p style="text-align:center;">YouTube is an American online video sharing and social media platform owned by Google. It was launched in February 2005 by Steve Chen, Chad Hurley, and Jawed Karim. It is the second most visited website, with more than one billion monthly users who collectively watch more than one billion hours of videos each day. </p>
+      <img src="https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-download-logo-30.png?fbclid=IwAR3NwVcGl4O8BY9WNrqFI9R352jOEvSR9TxNqQheSAQFf9IiujknOf9tDAA" style="width:40%" onclick="onClick(this)" alt="Spotify">
+      <p style="text-align:center;"><b> SPOTIFY </b></p>
+      <p style="text-align:center;">Spotify is a Swedish audio streaming and media services provider founded on 23 April 2006 by Daniel Ek and Martin Lorentzon. It is one of the world's largest music streaming service providers, with over 365 million monthly active users, including 165 million paying subscribers, as of June 2021.</p>
+    </div>
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- Services -->
+  <div class="w3-container" id="services" style="margin-top:75px">
+    <h1 class="w3-xxlarge w3-text-blue"><b>What is Streaming?</b></h1>
+    <hr style="width:100px;border:2px solid blue" class="w3-round">
+    <p><b>Streaming</b></p>
+    <p>Streaming media is sight and sound that is conveyed and burned-through in a consistent way from a source, with practically zero middle stockpiling in network components. Streaming alludes to the conveyance technique for content, instead of the actual substance.
+</p>
+<p>Streaming refers to a multimedia file such as audio and video. There are 2 different types of steaming.
+</p>
+    <p>The first one is the live stream, live streaming is where it allows you to watch and listen to the streamer in real time, also you can pause the stream that you’re watching/listening but you can’t go back to where you left it, because it’s live.
+The other one is the pre-recorded stream. This is the stream where the streamers upload their streams and the viewers just watch it and you can pause it too whenever you want, because this pre-recorded stream can easily pause and still go back to where you left it.
+    </p>
+     <!-- Photo grid (modal) -->
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <p style="text-align:center;" class="w3-large"><b>- LIVE STREAMING -</b></p>
+      <img src="https://suppls.com/wp-content/uploads/2020/06/valorant-is-apparently-getting-indian-servers-by-the-end-of-the-year.jpg" style="width:100%" onclick="onClick(this)" alt="Valorant">
+      <p><b>1. Valorant Gaming</b></p>
+      <img src="https://i.ytimg.com/vi/hTx9rA7wJA4/mqdefault.jpg" style="width:100%" onclick="onClick(this)" alt="Live News">
+      <p><b>2. Live News</b></p>
+      <img src="https://i.ytimg.com/vi/UEogUS5jUKk/maxresdefault.jpg" style="width:100%" onclick="onClick(this)" alt="Online Selling">
+      <p><b>3. Online Selling</b></p>
+    </div>
+
+    <div class="w3-half">
+      <p style="text-align:center;" class="w3-large"><b>- PRE-RECORDING -</b></p><br>
+      <iframe width="560" height="260" src="https://www.youtube.com/embed/9bZkp7q19f0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p><b>1. Music Video</b></p>
+      <iframe width="560" height="280" src="https://www.youtube.com/embed/fhDAh0-6lfM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p><b>2. Reaction Video</b></p>
+      <iframe width="560" height="272" src="https://www.youtube.com/embed/Y2jyjfcp1as" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p><b>3. Motivational Speech</b></p>
+      <br>
+    </div>
+  </div>
+
+  <!-- Modal for full size images on click-->
+    <p><b>How does Streaming work?</b></p>
+    <p>Music, video and different sorts of media documents are set up and communicated in consecutive parcels of information so they can be streamed quickly. What's more, not at all like customary downloads that are put away on your gadget, media records are naturally erased once you play them. </p>
+    <p>All you need to stream is a solid and quick high velocity web association, access or membership to a real time feature or application, and a viable gadget. See speed suggestions underneath.</p>
+    <p>To be able to stream, having an internet connection is a must for you to access different streaming media services. Streaming only works with the presence of the Internet that provides access to technologies.</p>
+  </div>
+  
+  <!-- Designers -->
+  <div class="w3-container" id="designers" style="margin-top:75px">
+    <h1 class="w3-xxlarge w3-text-blue"><b>Who watch Streams?</b></h1>
+    <hr style="width:100px;border:2px solid blue" class="w3-round">
+    <p>Everyone can watch streams.</p>
+    <p>When it comes to streams, we all know that different contents have different viewers because all of the people have different tastes when it comes to some things. For example, the stream is all about games, mostly the viewers of this streams are boys and teenagers, but if we say that the content is about reacting to different videos, that is the time where we can say that the viewers here doesn't have a specific age or gender because boys, girls, kids, teenagers and old people are watching this kind of content.
+
+    </p>
+    <p><b>Examples</b>:</p>
+  </div>
+
+  <!-- The Team -->
+  <div class="w3-row-padding w3-transparent">
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-blue">
+        <img src="https://www.cscbroward.org/sites/default/files/styles/blog_/public/2019-08/All%20Children%20Develop%20at%20their%20Own%20Pace.JPG" alt="Childrens" style="width:100%">
+        <div class="w3-container">
+          <h3>Childrens</h3>
+          <p class="w3-opacity">1-12 years old</p>
+          <p>Children these days are fond of watching different kind of rated G contents that can be watch in youtube, where many content creators upload their streams.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-blue">
+        <img src="https://naeye.net/wp-content/uploads/2018/06/teenagers.jpg" alt="Teenagers" style="width:100%">
+        <div class="w3-container">
+          <h3>Teenagers</h3>
+          <p class="w3-opacity">13-18 years old</p>
+          <p>Nowadays, majority of the teenagers watch a lot of contents whether it is for entertainment or just to watch their idols. Some even watch just to get advices from the video creator.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-blue">
+        <img src="https://www.eatright.org/-/media/eatrightimages/food/nutrition/dietaryguidelinesandmyplate/calorie-needs-adults-958682698.jpg" alt="Adults" style="width:100%">
+        <div class="w3-container">
+          <h3>Adults</h3>
+          <p class="w3-opacity">19 years old and above</p>
+          <p>Similar to teenagers, there are also many adults who watch streams to satisfy their selves. A lot of adults do streaming as well not as a viewer but a streamer.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Packages / Pricing Tables -->
+  <div class="w3-container" id="packages" style="margin-top:75px">
+    <h1 class="w3-xxlarge w3-text-blue"><b>Why do people watch Streams?</b></h1>
+    <hr style="width:100px;border:2px solid blue" class="w3-round">
+    <p>People watch streams to have fun and to be entertained. Watching streams can be a person's hobby and also used as a pastime everytime they're getting bored or want to watch and do something. This also can relieve your stress, because as far as I know a lot of streamers have really funny contents and are satisfying to watch. Watching streams can't just to make you have fun, it can also teach you to learn and to discover new things that you still not know about.
+</p>
+<p>This are some pros and cons of watching Streams</p>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-half w3-margin-bottom">
+      <ul class="w3-ul w3-light-blue w3-center">
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">CONS</li>
+        <li class="w3-padding-16">You might miss a part of the live stream</li>
+        <li class="w3-padding-16">Bad internet connection</li>
+        <li class="w3-padding-16">Large data usage</li>
+        <li class="w3-padding-16">It is addictive</li>
+        <li class="w3-padding-16">Physical Strenuous</li>
+      </ul>
+    </div>
+        
+    <div class="w3-half">
+      <ul class="w3-ul w3-light-blue w3-center">
+        <li class="w3-dark-gray w3-xlarge w3-padding-32">PROS</li>
+        <li class="w3-padding-16">It gives you access to additional media channels</li>
+        <li class="w3-padding-16">You can enjoy the contents you love</li>
+        <li class="w3-padding-16">You can save money on tickets in physical contents</li>
+        <li class="w3-padding-16">It can be your entertainment</li>
+        <li class="w3-padding-16">It is convenient to watch because you can access it anywhere anytime.</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Contact -->
+  <div class="w3-container" id="contact" style="margin-top:75px">
+    <h1 class="w3-xxlarge w3-text-blue"><b>Members</b></h1>
+    <hr style="width:100px;border:2px solid blue" class="w3-round">
+    <p>WE HOPE YOU ENJOY</p>
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Facilitator</label>
+         <li class="w3-black w3-xlarge w3-padding-20">Jasmine Annika Pereye</li>
+      </div>
+      <div class="w3-section">
+        <label>Spokeperson</label>
+         <li class="w3-black w3-xlarge w3-padding-20">Althea Andrea Cataytay</li>
+      </div>
+      <div class="w3-section">
+        <label>Researcher</label>
+         <li class="w3-black w3-xlarge w3-padding-20">Gabrielle Bennet Mancilla</li>
+      </div>
+      <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">THANK YOU</button>
+    </form>
+  </div>
+
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+
+<div class="w3-purple w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Made by <a href="https://lms.apecschools.edu.ph/course/view.php?id=168" title="W3.CSS" target="_blank" class="w3-hover-opacity">C-Passion ; 10-1</a></p></div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
